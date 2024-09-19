@@ -1,0 +1,9 @@
+{
+  "version": 0,
+  "descriptorPath": ".papi/descriptors",
+  "entries": {
+    "avail": {
+      "metadata": "avail.scale"
+    }
+  }
+}
