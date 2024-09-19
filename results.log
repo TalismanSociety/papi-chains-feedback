@@ -11,8 +11,13 @@ RpcError: Method not found
 
       at new RpcError (/workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/substrate-client/dist/esm/client/RpcError.mjs:6:5)
       at onMessage (/workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/substrate-client/dist/esm/client/createClient.mjs:31:35)
+      at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/polkadot-sdk-compat/dist/esm/parsed.mjs:22:5
+      at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/polkadot-sdk-compat/dist/esm/parsed-enhancers/fix-unordered-blocks.mjs:9:7
+      at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/polkadot-sdk-compat/dist/esm/parsed-enhancers/patch-chainhead-events.mjs:12:3
+      at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/polkadot-sdk-compat/dist/esm/parsed-enhancers/fix-unordered-events.mjs:16:7
+      at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/polkadot-sdk-compat/dist/esm/parsed-enhancers/translate.mjs:96:7
+      at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/polkadot-sdk-compat/dist/esm/parsed.mjs:4:5
       at onMessageProxy (/workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/json-rpc-provider-proxy/dist/esm/get-sync-provider.mjs:23:5)
       at /workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/json-rpc-provider-proxy/dist/esm/get-sync-provider.mjs:61:20
-      at _onMessage (/workspaces/staking-insights-worker/papi-chains-feedback/node_modules/@polkadot-api/ws-provider/dist/web/esm/ws-provider.mjs:22:39)
 
 Bun v1.1.28 (Linux arm64)
