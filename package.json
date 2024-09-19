@@ -2,6 +2,9 @@
   "name": "papi-chains-feedback",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "postinstall": "papi"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
